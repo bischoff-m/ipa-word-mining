@@ -2,7 +2,6 @@
 from pathlib import Path
 import pandas as pd
 from IPython.display import display
-import numpy as np
 
 if Path("de.csv").exists():
     df = pd.read_csv("de.csv")
